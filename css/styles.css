@@ -496,20 +496,33 @@ a {
   gap: 5px;
 }
 
-.sticky-progress-bg {
+.seek-slider {
   width: 100%;
   height: 4px;
+  -webkit-appearance: none;
   background: rgba(255, 255, 255, 0.25);
   border-radius: 2px;
-  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  accent-color: var(--warm-yellow);
 }
 
-.sticky-progress-fill {
-  height: 100%;
-  width: 0%;
+.seek-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
   background: #fff;
-  border-radius: 2px;
-  transition: width 0.1s linear;
+  cursor: pointer;
+}
+
+.seek-slider::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  border: none;
 }
 
 .sticky-time {
@@ -537,7 +550,12 @@ a {
   display: grid;
   place-items: center;
   padding: 0;
-  transition: color 0.2s;
+  transition: color 0.2s, background 0.2s;
+}
+
+.sticky-player .icon-btn.is-on {
+  background: var(--warm-yellow);
+  color: #000;
 }
 
 .sticky-player .icon-btn:hover {

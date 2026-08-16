@@ -79,12 +79,22 @@
       <h2 class="section-title">TV Serials & Shows</h2>
       <p class="hand">Doordarshan ki raat, antenna ki ladai, aur ek hi channel ka pyaar.</p>
       <div class="tv-grid">
-        <button class="memory-card" type="button" style="background-image: linear-gradient(to top, rgba(0,0,0,0.9), transparent 60%), url('img/tv/shaktimaan.jpg');"><strong>Shaktimaan</strong></button>
-        <button class="memory-card" type="button" style="background-image: linear-gradient(to top, rgba(0,0,0,0.9), transparent 60%), url('img/tv/shakalaka.jpg');"><strong>Shaka Laka Boom Boom</strong></button>
-        <button class="memory-card" type="button" style="background-image: linear-gradient(to top, rgba(0,0,0,0.9), transparent 60%), url('img/tv/malgudi.jpg');"><strong>Malgudi Days</strong></button>
-        <button class="memory-card" type="button" style="background-image: linear-gradient(to top, rgba(0,0,0,0.9), transparent 60%), url('img/tv/byomkesh.jpg');"><strong>Byomkesh Bakshi</strong></button>
-        <button class="memory-card" type="button" style="background-image: linear-gradient(to top, rgba(0,0,0,0.9), transparent 60%), url('img/tv/cid.jpg');"><strong>CID</strong></button>
-        <button class="memory-card" type="button" style="background-image: linear-gradient(to top, rgba(0,0,0,0.9), transparent 60%), url('img/tv/aliflaila.jpg');"><strong>Alif Laila</strong></button>
+        <button class="memory-card" type="button"
+          style="background-image: linear-gradient(to top, rgba(0,0,0,0.9), transparent 60%), url('img/tv/shaktimaan.jpg');"><strong>Shaktimaan</strong></button>
+        <button class="memory-card" type="button"
+          style="background-image: linear-gradient(to top, rgba(0,0,0,0.9), transparent 60%), url('img/tv/shakalaka.jpg');"><strong>Shaka
+            Laka Boom Boom</strong></button>
+        <button class="memory-card" type="button"
+          style="background-image: linear-gradient(to top, rgba(0,0,0,0.9), transparent 60%), url('img/tv/malgudi.jpg');"><strong>Malgudi
+            Days</strong></button>
+        <button class="memory-card" type="button"
+          style="background-image: linear-gradient(to top, rgba(0,0,0,0.9), transparent 60%), url('img/tv/byomkesh.jpg');"><strong>Byomkesh
+            Bakshi</strong></button>
+        <button class="memory-card" type="button"
+          style="background-image: linear-gradient(to top, rgba(0,0,0,0.9), transparent 60%), url('img/tv/cid.jpg');"><strong>CID</strong></button>
+        <button class="memory-card" type="button"
+          style="background-image: linear-gradient(to top, rgba(0,0,0,0.9), transparent 60%), url('img/tv/aliflaila.jpg');"><strong>Alif
+            Laila</strong></button>
       </div>
     </section>
 
@@ -226,15 +236,14 @@
       <strong id="sticky-title">90s Radio</strong>
       <span id="sticky-sub">Cassette lagao</span>
       <div class="sticky-seek-row">
-        <div class="sticky-progress-bg">
-          <div id="sticky-progress-fill" class="sticky-progress-fill"></div>
-        </div>
+        <input type="range" id="seek" class="seek-slider" min="0" value="0" aria-label="Seek audio" />
         <div class="sticky-time">
           <span id="sticky-time-now">0:00</span> / <span id="sticky-time-end">0:00</span>
         </div>
       </div>
     </div>
     <div class="btns">
+      <button class="icon-btn" id="shuffle" type="button" aria-label="Shuffle" title="Shuffle">🔀</button>
       <button class="icon-btn" id="sticky-prev" type="button" aria-label="Previous">⏮</button>
       <button class="icon-btn is-main" id="sticky-play" type="button" aria-label="Play">▶</button>
       <button class="icon-btn" id="sticky-next" type="button" aria-label="Next">⏭</button>

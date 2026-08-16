@@ -63,7 +63,7 @@ function setPlayingUi(on) {
   if (playMain) playMain.textContent = on ? "❚❚" : "▶";
   const stickyPlay = $("sticky-play");
   if (stickyPlay) stickyPlay.textContent = on ? "❚❚" : "▶";
-  
+
   const sticky = $("sticky-player");
   if (sticky) sticky.classList.toggle("is-show", Boolean(current()));
 
@@ -98,7 +98,7 @@ function tick() {
   if (!player.yt?.getDuration) return;
   const dur = player.yt.getDuration() || 0;
   const t = player.yt.getCurrentTime() || 0;
-  
+
   const seek = $("seek");
   if (seek) {
     seek.max = String(dur);
@@ -108,7 +108,7 @@ function tick() {
   if (timeNow) timeNow.textContent = formatTime(t);
   const timeEnd = $("time-end");
   if (timeEnd) timeEnd.textContent = formatTime(dur);
-  
+
   const stickyProgressFill = $("sticky-progress-fill");
   if (stickyProgressFill && dur > 0) {
     stickyProgressFill.style.width = `${(t / dur) * 100}%`;
@@ -159,8 +159,20 @@ function nextTrack() {
       return;
     }
 
-    // YouTube advances inside the external playlist. The backend
-    // never downloads, stores, or streams the song itself.
+    if (player.shuffle && player.yt?.getPlaylist) {
+      const playlist = player.yt.getPlaylist() || [];
+      if (playlist.length > 1) {
+        let n = player.yt.getPlaylistIndex();
+        const current = n;
+        while (n === current) {
+          n = Math.floor(Math.random() * playlist.length);
+        }
+        player.yt.playVideoAt(n);
+        return;
+      }
+    }
+
+    // YouTube advances inside the external playlist.
     player.yt?.nextVideo?.();
     return;
   }
@@ -314,7 +326,7 @@ function onPlayerError() {
 
 async function initPlayer() {
   const status = $("radio-status");
-  
+
   player.songs = window.CATALOG || [];
   status.hidden = false;
   status.textContent =
@@ -338,9 +350,9 @@ async function initPlayer() {
       enablejsapi: 1,
       ...(USE_YOUTUBE_PLAYLIST
         ? {
-            listType: "playlist",
-            list: YOUTUBE_PLAYLIST_ID,
-          }
+          listType: "playlist",
+          list: YOUTUBE_PLAYLIST_ID,
+        }
         : {}),
     },
     events: {
@@ -443,7 +455,7 @@ async function initPlayer() {
     { threshold: 0.15 }
   );
   io.observe(hero);
-  
+
   // Also make sure it shows immediately when a song is selected, 
   // we can hook into paintNowPlaying or playIndex, but checking 
   // periodically or relying on state change is safer for now.
