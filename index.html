@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>90s Wala — Woh Bhi Kya Din The</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,500&family=Newsreader:ital,opsz,wght@0,6..72,500;1,6..72,400&family=Noto+Sans+Devanagari:wght@700&family=Source+Sans+3:wght@400;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <div class="door" id="door">
+    <div>
+      <p>Aaiye…</p>
+      <h1>You just opened a door<br />into your childhood.</h1>
+      <button type="button" id="enter">Enter 90s Wala</button>
+    </div>
+  </div>
+
+  <header class="hero" id="home">
+    <div class="topbar">
+      <div class="brand">90s Wala</div>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#music">Music</a>
+        <a href="#memories">Memories</a>
+      </nav>
+    </div>
+
+    <div class="online">
+      <span class="dot"></span>
+      <span><span id="online-count">1,284</span> Wala online</span>
+    </div>
+
+    <div class="hero-copy">
+      <p class="en">90s</p>
+      <p class="hi">वाला</p>
+      <p class="tagline">Woh Bhi Kya Din The...</p>
+      <button class="suno" type="button" id="suno">▶ Suno 90s</button>
+    </div>
+
+    <div style="position: absolute; width: 0; height: 0; overflow: hidden;" aria-hidden="true">
+      <div id="yt-player"></div>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="wrap" id="music">
+      <p class="kicker">🎵 90s Music</p>
+      <h2 class="section-title">90s Ki Dhun</h2>
+      <p class="hand">Woh cassettes jo ghar ke almari mein ab bhi pade honge.</p>
+      <p class="radio-status" id="radio-status" hidden></p>
+      <label class="search-wrap">
+        <span>Search</span>
+        <input id="song-search" type="search" placeholder="Gaana, singer, film…" />
+      </label>
+      <div class="filters">
+        <button class="chip is-on" data-filter="All">All</button>
+        <button class="chip" data-filter="Bollywood">Bollywood</button>
+        <button class="chip" data-filter="Indipop">Indipop</button>
+        <button class="chip" data-filter="Bhojpuri">Bhojpuri</button>
+        <button class="chip" data-filter="Romantic">Romantic</button>
+        <button class="chip" data-filter="Sad">Sad</button>
+        <button class="chip" data-filter="Dance">Dance</button>
+      </div>
+      <div class="songs" id="songs"></div>
+    </section>
+
+    <section class="wrap" id="tv">
+      <p class="kicker">📺 Yaad hai?</p>
+      <h2 class="section-title">TV Serials & Shows</h2>
+      <p class="hand">Doordarshan ki raat, antenna ki ladai, aur ek hi channel ka pyaar.</p>
+      <div class="tv-grid">
+        <button class="memory-card" type="button" style="background-image: linear-gradient(to top, rgba(0,0,0,0.9), transparent 60%), url('img/tv/shaktimaan.jpg');"><strong>Shaktimaan</strong></button>
+        <button class="memory-card" type="button" style="background-image: linear-gradient(to top, rgba(0,0,0,0.9), transparent 60%), url('img/tv/shakalaka.jpg');"><strong>Shaka Laka Boom Boom</strong></button>
+        <button class="memory-card" type="button" style="background-image: linear-gradient(to top, rgba(0,0,0,0.9), transparent 60%), url('img/tv/malgudi.jpg');"><strong>Malgudi Days</strong></button>
+        <button class="memory-card" type="button" style="background-image: linear-gradient(to top, rgba(0,0,0,0.9), transparent 60%), url('img/tv/byomkesh.jpg');"><strong>Byomkesh Bakshi</strong></button>
+        <button class="memory-card" type="button" style="background-image: linear-gradient(to top, rgba(0,0,0,0.9), transparent 60%), url('img/tv/cid.jpg');"><strong>CID</strong></button>
+        <button class="memory-card" type="button" style="background-image: linear-gradient(to top, rgba(0,0,0,0.9), transparent 60%), url('img/tv/aliflaila.jpg');"><strong>Alif Laila</strong></button>
+      </div>
+    </section>
+
+    <section class="wrap" id="things">
+      <p class="kicker">📼 Tab ki duniya</p>
+      <h2 class="section-title">Things We Used</h2>
+      <p class="hand">Hover kijiye. Kuch cheezein ab bhi awaaz karti hain.</p>
+      <div class="objects">
+        <article class="object" tabindex="0">
+          <span class="emoji">📼</span>
+          <h3>Cassette</h3>
+          <p class="whisper">Gaana rewind karne ke liye pencil yaad hai?</p>
+        </article>
+        <article class="object" tabindex="0">
+          <span class="emoji">☎️</span>
+          <h3>Landline</h3>
+          <p class="whisper">Do rings, aur poori gali jaanti thi ki phone kiska hai.</p>
+        </article>
+        <article class="object" tabindex="0">
+          <span class="emoji">📻</span>
+          <h3>Radio</h3>
+          <p class="whisper">Vividh Bharati raat ko — presenter ki awaaz ghar ka hissa thi.</p>
+        </article>
+        <article class="object" tabindex="0">
+          <span class="emoji">📺</span>
+          <h3>CRT TV</h3>
+          <p class="whisper">Antenna ghumao. Abhi picture aa jayegi. Bas ek inch aur.</p>
+        </article>
+        <article class="object" tabindex="0">
+          <span class="emoji">🎮</span>
+          <h3>Video Game</h3>
+          <p class="whisper">Video parlour, Contra, aur 5 rupaye ka extra life.</p>
+        </article>
+        <article class="object" tabindex="0">
+          <span class="emoji">✏️</span>
+          <h3>Fountain Pen</h3>
+          <p class="whisper">Pocket par neela daag — padhai ka medal.</p>
+        </article>
+      </div>
+      <img class="still" id="still-photo" alt="1990s Indian household objects on a teak table" />
+    </section>
+
+    <section class="wrap" id="bachpan">
+      <p class="kicker">🏏 Bachpan</p>
+      <h2 class="section-title">Bachpan</h2>
+      <p class="hand">Yahan website music se aage nikal ke dil tak jaati hai.</p>
+      <div class="bachpan">
+        <div class="games">
+          <button class="game is-on" data-game="cricket" type="button">
+            <strong>🏏 Gully Cricket</strong>
+            <span>Tennis ball. Neighbour’s wall. Last ball six.</span>
+          </button>
+          <button class="game" data-game="patang" type="button">
+            <strong>🪁 Patang</strong>
+            <span>Manjha, rooftop, and a sky full of arguments.</span>
+          </button>
+          <button class="game" data-game="lattu" type="button">
+            <strong>🪀 Lattu</strong>
+            <span>Ek spin jo poori duniya rok de.</span>
+          </button>
+          <button class="game" data-game="kancha" type="button">
+            <strong>🔵 Kancha</strong>
+            <span>Glass wealth, measured in dirt.</span>
+          </button>
+          <button class="game" data-game="pakdam" type="button">
+            <strong>🏃 Pakdam-Pakdai</strong>
+            <span>Until the balcony called you home.</span>
+          </button>
+          <button class="game" data-game="cycle" type="button">
+            <strong>🚲 Cycle</strong>
+            <span>Friend on the rod. Town in your pocket.</span>
+          </button>
+        </div>
+        <aside class="story">
+          <h3 id="story-title">🏏 Gully Cricket</h3>
+          <p id="story-copy">
+            Tennis ball, one broken wicket, neighbour's wall as boundary. 'Last ball six' was a constitutional
+            right.
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="wrap" id="quiz">
+      <p class="kicker">🧠 Kitna 90s yaad hai?</p>
+      <h2 class="section-title">Kitna 90s Yaad Hai?</h2>
+      <p class="hand">Das sawaal. Eeman se dena — Google nahi, yaad.</p>
+      <div class="quiz-card" id="quiz-play">
+        <p id="q-num">Question 1/10</p>
+        <div class="progress">
+          <div id="q-bar"></div>
+        </div>
+        <h3 id="q-text"></h3>
+        <div class="options" id="q-opts"></div>
+        <button class="next" type="button" id="q-next">Next</button>
+      </div>
+      <div class="quiz-card result" id="quiz-result" hidden>
+        <p>🎉 Result</p>
+        <p class="pct" id="pct">94%</p>
+        <h3>90s Wala</h3>
+        <p id="verdict">Aapne zamaana dekha hai!</p>
+        <button class="next" type="button" id="q-retry">Phir se khelo</button>
+      </div>
+    </section>
+
+    <section class="wrap" id="memories">
+      <p class="kicker">❤️ Community</p>
+      <h2 class="section-title">Meri 90s Ki Yaad</h2>
+      <p class="hand">Ek line likhiye. Koi na koi relate karega.</p>
+      <form class="memory-form" id="yaad-form">
+        <textarea id="yaad-text" required
+          placeholder="Sunday ko subah jaldi uthkar TV par cartoons dekhna..."></textarea>
+        <input id="yaad-name" placeholder="Naam (optional — Anonymous chalega)" />
+        <button class="next" type="submit">Yaad bhejo</button>
+      </form>
+      <div class="feed" id="feed"></div>
+    </section>
+  </main>
+
+  <footer class="site">90s Wala · Woh bhi kya din the · Made like a photograph, not a neon poster.</footer>
+
+  <div class="modal" id="modal" hidden>
+    <div class="modal-card">
+      <button class="close" id="close-modal" type="button" aria-label="Close">×</button>
+      <img id="modal-img" alt="" />
+      <div class="inner">
+        <h3 id="modal-title"></h3>
+        <p id="modal-copy"></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="sticky-player" id="sticky-player">
+    <div class="sticky-thumb-wrap">
+      <img id="thumb" alt="" />
+      <div class="vinyl-hole"></div>
+    </div>
+    <div class="sticky-copy">
+      <strong id="sticky-title">90s Radio</strong>
+      <span id="sticky-sub">Cassette lagao</span>
+      <div class="sticky-seek-row">
+        <div class="sticky-progress-bg">
+          <div id="sticky-progress-fill" class="sticky-progress-fill"></div>
+        </div>
+        <div class="sticky-time">
+          <span id="sticky-time-now">0:00</span> / <span id="sticky-time-end">0:00</span>
+        </div>
+      </div>
+    </div>
+    <div class="btns">
+      <button class="icon-btn" id="sticky-prev" type="button" aria-label="Previous">⏮</button>
+      <button class="icon-btn is-main" id="sticky-play" type="button" aria-label="Play">▶</button>
+      <button class="icon-btn" id="sticky-next" type="button" aria-label="Next">⏭</button>
+    </div>
+  </div>
+
+  <script src="js/player.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

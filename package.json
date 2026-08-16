@@ -1,0 +1,18 @@
+{
+  "name": "nineties-wala",
+  "version": "1.0.0",
+  "private": true,
+  "description": "90s Wala — nostalgic homepage with SQLite song radio",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "seed": "node server/seed.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "express": "^5.1.0"
+  }
+}
