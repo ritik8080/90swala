@@ -60,12 +60,6 @@ window.initPlayer?.();
 
 let online = 1284;
 const onlineEl = document.getElementById("online-count");
-fetch("/api/stats")
-  .then((r) => r.json())
-  .then((s) => {
-    online = 1200 + Number(s.plays || 0) + Number(s.memories || 0);
-  })
-  .catch(() => {});
 setInterval(() => {
   online += Math.random() > 0.55 ? 1 : -1;
   online = Math.max(1200, Math.min(1800, online));
@@ -283,23 +277,32 @@ function renderYaadein() {
     .join("");
   document.querySelectorAll(".relate").forEach((btn) => {
     btn.addEventListener("click", async () => {
-      try {
-        const updated = await fetch(`/api/memories/${btn.dataset.id}/relate`, { method: "POST" }).then((r) => r.json());
-        const i = yaadein.findIndex((y) => y.id === updated.id);
-        if (i >= 0) yaadein[i] = updated;
+      const i = yaadein.findIndex((y) => y.id === Number(btn.dataset.id));
+      if (i >= 0) {
+        yaadein[i].likes = (yaadein[i].likes || 0) + 1;
+        saveYaadein();
         renderYaadein();
-      } catch {
-        /* ignore */
       }
     });
   });
 }
 
+const defaultYaadein = [
+  { id: 1, body: "Sunday ko subah jaldi uthkar TV par cartoons dekhna, phir Ramayan ka title music ghar mein ghoomna.", author: "Anonymous", likes: 128 },
+  { id: 2, body: "Cassette dukan se naya album aaya hai, shopkeeper kehta — 'ek baar sun lo, lena hai to lena'.", author: "Ramesh, Kanpur", likes: 86 },
+  { id: 3, body: "Pados wali auntie ke landline se STD, aur poori gali ko pata chal jaata tha ki kaun bola.", author: "Anonymous", likes: 64 }
+];
+
+function saveYaadein() {
+  localStorage.setItem("90swala_yaadein", JSON.stringify(yaadein));
+}
+
 async function loadYaadein() {
   try {
-    yaadein = await fetch("/api/memories").then((r) => r.json());
+    const stored = localStorage.getItem("90swala_yaadein");
+    yaadein = stored ? JSON.parse(stored) : defaultYaadein;
   } catch {
-    yaadein = [];
+    yaadein = defaultYaadein;
   }
   renderYaadein();
 }
@@ -309,17 +312,15 @@ document.getElementById("yaad-form").addEventListener("submit", async (e) => {
   const text = document.getElementById("yaad-text").value.trim();
   if (!text) return;
   const name = document.getElementById("yaad-name").value.trim() || "Anonymous";
-  try {
-    const entry = await fetch("/api/memories", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ text, name }),
-    }).then((r) => r.json());
-    if (entry.id) yaadein.unshift(entry);
-    e.target.reset();
-    renderYaadein();
-  } catch {
-    alert("Yaad save nahi hui. Server chalu hai na?");
-  }
+  const entry = {
+    id: Date.now(),
+    body: text,
+    author: name,
+    likes: 1
+  };
+  yaadein.unshift(entry);
+  saveYaadein();
+  e.target.reset();
+  renderYaadein();
 });
 loadYaadein();

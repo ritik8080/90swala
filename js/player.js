@@ -28,17 +28,7 @@ function $(id) {
   return document.getElementById(id);
 }
 
-async function api(path, opts) {
-  const res = await fetch(`${API}${path}`, {
-    headers: { "Content-Type": "application/json" },
-    ...opts,
-  });
-  if (!res.ok) {
-    const err = await res.json().catch(() => ({ error: res.statusText }));
-    throw new Error(err.error || "Request failed");
-  }
-  return res.json();
-}
+// API removed for static version
 
 function loadYouTubeApi() {
   return new Promise((resolve) => {
@@ -130,14 +120,11 @@ function tick() {
 }
 
 async function recordPlay(id) {
-  try {
-    const updated = await api(`/songs/${id}/play`, { method: "POST" });
-    const i = player.songs.findIndex((s) => s.id === id);
-    if (i >= 0) player.songs[i].plays = updated.plays;
+  const i = player.songs.findIndex((s) => s.id === id);
+  if (i >= 0) {
+    player.songs[i].plays = (player.songs[i].plays || 0) + 1;
     const card = document.querySelector(`.song[data-id="${id}"] .plays`);
-    if (card) card.textContent = `${updated.plays} plays`;
-  } catch {
-    /* offline */
+    if (card) card.textContent = `${player.songs[i].plays} plays`;
   }
 }
 
@@ -327,20 +314,14 @@ function onPlayerError() {
 
 async function initPlayer() {
   const status = $("radio-status");
-  try {
-    player.songs = await api("/songs");
-    status.hidden = false;
-    status.textContent =
-      "🎵 Audio source: YouTube playlist · Backend par koi MP3 store nahi hoti.";
-    setTimeout(() => {
-      status.hidden = true;
-    }, 3500);
-  } catch {
-    status.hidden = false;
-    status.textContent =
-      "Radio band hai. Terminal mein `npm install` phir `npm start` chalao, phir http://localhost:3000 kholo.";
-    player.songs = [];
-  }
+  
+  player.songs = window.CATALOG || [];
+  status.hidden = false;
+  status.textContent =
+    "🎵 Audio source: YouTube playlist · Local static version.";
+  setTimeout(() => {
+    status.hidden = true;
+  }, 3500);
 
   rebuildQueue();
   if (player.queue[0]) paintNowPlaying(player.queue[0]);
