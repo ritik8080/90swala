@@ -300,7 +300,7 @@ function syncPlaylistSong() {
       const npSub = $("np-sub");
       if (npSub) npSub.textContent = "YouTube playlist";
       $("sticky-title").textContent = data.title;
-      $("sticky-sub").textContent = "YouTube playlist";
+
       $("thumb").src = `https://i.ytimg.com/vi/${videoId}/mqdefault.jpg`;
       $("thumb").alt = data.title;
     }

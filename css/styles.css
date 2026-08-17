@@ -150,7 +150,7 @@ a {
       rgba(20, 10, 4, 0.28) 42%,
       rgba(20, 10, 4, 0.72) 100%
     ),
-    var(--hero-image, none);
+    url('../img/hero-bg.svg');
   background-size: cover;
   background-position: center 40%;
 }

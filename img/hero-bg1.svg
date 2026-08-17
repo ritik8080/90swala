@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- Sky gradient -->
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfc7b8" />
+      <stop offset="50%" stop-color="#dbd2c2" />
+      <stop offset="100%" stop-color="#b6a999" />
+    </linearGradient>
+    <linearGradient id="mountainsDistant" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a3a3a6" />
+      <stop offset="100%" stop-color="#696973" />
+    </linearGradient>
+    <linearGradient id="mountainsMid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#675a61" />
+      <stop offset="100%" stop-color="#463d42" />
+    </linearGradient>
+    <linearGradient id="balcony" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a1f1a" />
+      <stop offset="100%" stop-color="#140d0a" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1200" height="800" fill="url(#sky)" />
+
+  <!-- Distant snow mountains -->
+  <path d="M0,450 L50,380 L120,310 L150,330 L220,280 L280,310 L350,290 L420,340 L500,280 L600,320 L750,260 L850,310 L950,250 L1050,300 L1200,260 L1200,500 L0,500 Z" fill="url(#mountainsDistant)" />
+  <!-- Snow caps -->
+  <path d="M120,310 L150,330 L135,350 L105,340 Z M220,280 L280,310 L250,320 L200,300 Z M350,290 L420,340 L380,350 L320,310 Z M500,280 L600,320 L550,330 L480,300 Z M750,260 L850,310 L800,320 L720,280 Z M950,250 L1050,300 L1000,310 L920,270 Z M1200,260 L1200,290 L1150,280 Z" fill="#e8e6e1" opacity="0.8" />
+
+  <!-- Mid mountains -->
+  <path d="M0,550 L150,420 L350,460 L550,400 L800,480 L1000,420 L1200,470 L1200,600 L0,600 Z" fill="url(#mountainsMid)" />
+
+  <!-- Closer hills (darker) -->
+  <path d="M0,600 L300,520 L600,560 L900,500 L1200,540 L1200,800 L0,800 Z" fill="#3a3028" />
+
+  <!-- Distant town lights/houses (dots) -->
+  <g fill="#c4bba4" opacity="0.6">
+    <rect x="750" y="480" width="4" height="3" />
+    <rect x="760" y="485" width="5" height="4" />
+    <rect x="740" y="490" width="3" height="3" />
+    <rect x="780" y="475" width="4" height="4" />
+    <rect x="800" y="490" width="3" height="3" />
+    <rect x="820" y="485" width="4" height="4" />
+    <rect x="770" y="500" width="5" height="3" />
+    <rect x="790" y="505" width="3" height="3" />
+    <rect x="760" y="510" width="4" height="4" />
+    <rect x="850" y="490" width="3" height="3" />
+    <rect x="830" y="500" width="4" height="3" />
+    <rect x="870" y="495" width="5" height="4" />
+  </g>
+
+  <!-- Balcony railing -->
+  <g fill="url(#balcony)">
+    <rect x="580" y="0" width="25" height="600" />
+    <rect x="1050" y="0" width="25" height="600" />
+    <!-- Roof edge -->
+    <path d="M0,0 L1200,0 L1200,40 L0,60 Z" fill="#2a1f1a" />
+    <!-- Roof trim -->
+    <path d="M0,60 L20,80 L40,60 L60,80 L80,60 L100,80 L120,60 L140,80 L160,60 L180,80 L200,60 L220,80 L240,60 L260,80 L280,60 L300,80 L320,60 L340,80 L360,60 L380,80 L400,60 L420,80 L440,60 L460,80 L480,60 L500,80 L520,60 L540,80 L560,60 L580,80 L600,60 L620,80 L640,60 L660,80 L680,60 L700,80 L720,60 L740,80 L760,60 L780,80 L800,60 L820,80 L840,60 L860,80 L880,60 L900,80 L920,60 L940,80 L960,60 L980,80 L1000,60 L1020,80 L1040,60 L1060,80 L1080,60 L1100,80 L1120,60 L1140,80 L1160,60 L1180,80 L1200,60 L1200,40 L0,40 Z" fill="#352820" />
+    <!-- Balcony horizontal rail -->
+    <rect x="0" y="550" width="1200" height="15" />
+    <!-- Balcony vertical rails (blurred in background) -->
+    <g opacity="0.4">
+      <rect x="50" y="565" width="5" height="235" />
+      <rect x="150" y="565" width="5" height="235" />
+      <rect x="250" y="565" width="5" height="235" />
+      <rect x="350" y="565" width="5" height="235" />
+      <rect x="450" y="565" width="5" height="235" />
+      <rect x="550" y="565" width="5" height="235" />
+      <rect x="650" y="565" width="5" height="235" />
+      <rect x="750" y="565" width="5" height="235" />
+      <rect x="850" y="565" width="5" height="235" />
+      <rect x="950" y="565" width="5" height="235" />
+      <rect x="1150" y="565" width="5" height="235" />
+    </g>
+  </g>
+
+  <!-- People & Table Silhouettes (Foreground) -->
+  <!-- Table -->
+  <path d="M200,800 L400,650 L900,680 L1100,800 Z" fill="#1f1814" />
+  <path d="M200,800 L1100,800 L1100,850 L200,850 Z" fill="#140f0c" />
+  
+  <!-- Tablecloth (checkered pattern representation) -->
+  <path d="M400,650 L900,680 L1100,800 L200,800 Z" fill="#4d4c46" opacity="0.6" />
+  <path d="M450,660 L850,690 L1000,800 L300,800 Z" fill="#6c6d66" opacity="0.3" />
+
+  <!-- Person 1 (Left, Man facing right) -->
+  <g fill="#161b24">
+    <path d="M50,800 C80,680 150,650 200,600 C230,580 280,580 320,620 C350,650 360,700 400,750 C410,800 410,800 410,800 L50,800 Z" />
+    <!-- Head -->
+    <ellipse cx="270" cy="520" rx="45" ry="55" />
+    <!-- Hair -->
+    <path d="M230,500 C240,460 280,450 310,480 C320,490 320,510 320,510 C320,510 310,480 270,470 C240,470 230,490 230,500 Z" fill="#0b0e14" />
+    <!-- Profile -->
+    <path d="M290,500 C310,500 320,510 325,520 C325,530 315,535 310,535 C310,540 315,545 315,550 C315,560 300,570 280,570 Z" />
+  </g>
+
+  <!-- Person 2 (Center left, Woman in yellow facing left/center) -->
+  <g fill="#bfa336">
+    <path d="M400,800 C420,720 450,680 500,650 C540,630 600,650 630,750 C640,800 640,800 640,800 L400,800 Z" />
+  </g>
+  <!-- Head & Hair (Woman in yellow) -->
+  <g fill="#1a1411">
+    <ellipse cx="500" cy="540" rx="35" ry="45" />
+    <!-- Hair flowing down -->
+    <path d="M480,500 C500,480 540,490 550,530 C560,570 580,620 600,650 C570,640 540,600 520,560 Z" />
+    <!-- Profile -->
+    <path d="M480,520 C470,520 460,530 460,540 C460,545 470,550 475,550 C470,560 480,570 490,575 Z" fill="#b38a64" />
+  </g>
+
+  <!-- Person 3 (Center right, Woman facing left) -->
+  <g fill="#612328">
+    <path d="M600,750 C620,680 650,660 700,640 C740,620 780,640 800,700 C810,750 810,750 810,750 L600,750 Z" />
+  </g>
+  <!-- Head & Hair (Woman 3) -->
+  <g fill="#110e0c">
+    <ellipse cx="720" cy="530" rx="30" ry="40" />
+    <path d="M740,500 C710,490 690,510 680,550 C670,590 650,630 630,650 C660,650 710,590 730,550 Z" />
+    <!-- Profile -->
+    <path d="M700,520 C690,520 685,530 685,540 C685,545 695,550 700,550 C695,560 700,570 710,570 Z" fill="#9e7b61" />
+  </g>
+
+  <!-- Person 4 (Right, Man in sweater facing left) -->
+  <g fill="#34303b">
+    <path d="M800,800 C820,650 880,580 950,560 C1000,540 1080,580 1150,650 C1180,700 1200,800 1200,800 L800,800 Z" />
+  </g>
+  <!-- Sweater pattern (simple stripes) -->
+  <g fill="#5e2b26" opacity="0.6">
+    <path d="M860,650 L1100,620 L1120,640 L850,670 Z" />
+    <path d="M830,720 L1150,690 L1160,710 L820,740 Z" />
+  </g>
+  <!-- Head (Man right) -->
+  <g fill="#1a1411">
+    <ellipse cx="920" cy="460" rx="40" ry="50" />
+    <path d="M900,430 C920,410 950,420 960,450 C960,470 950,500 930,510 Z" />
+    <!-- Profile -->
+    <path d="M900,450 C880,450 870,460 870,470 C870,475 880,480 885,480 C880,490 890,500 900,505 Z" fill="#ab876d" />
+  </g>
+
+  <!-- Teacups on table -->
+  <g fill="#d1ccc1">
+    <!-- Cup 1 -->
+    <path d="M550,710 L560,710 L555,720 Z" />
+    <!-- Cup 2 -->
+    <rect x="700" y="665" width="12" height="10" rx="2" />
+    <!-- Saucer -->
+    <ellipse cx="706" cy="676" rx="14" ry="4" />
+    <!-- Cup 3 -->
+    <rect x="740" y="670" width="10" height="8" rx="2" />
+    <ellipse cx="745" cy="679" rx="12" ry="3" />
+  </g>
+  
+  <!-- Add a soft vignette overlay for that vintage film photo look -->
+  <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
+    <stop offset="60%" stop-color="#000" stop-opacity="0" />
+    <stop offset="100%" stop-color="#2a1f1a" stop-opacity="0.6" />
+  </radialGradient>
+  <rect width="1200" height="800" fill="url(#vignette)" pointer-events="none" />
+
+  <!-- A touch of film grain overlay -->
+  <filter id="grain">
+    <feTurbulence type="fractalNoise" baseFrequency="0.6" numOctaves="3" result="noise" />
+    <feColorMatrix type="matrix" values="1 0 0 0 0  0 0.9 0 0 0  0 0.8 0 0 0  0 0 0 0.15 0" in="noise" result="coloredNoise" />
+    <feBlend mode="multiply" in="SourceGraphic" in2="coloredNoise" />
+  </filter>
+  <rect width="1200" height="800" fill="#fff" filter="url(#grain)" opacity="0.3" pointer-events="none" />
+
+</svg>
