@@ -16,7 +16,7 @@ const player = {
   yt: null,
   ready: false,
   playing: false,
-  shuffle: false,
+  shuffle: true,
   repeat: "off",
   filter: "All",
   query: "",
@@ -248,6 +248,7 @@ function rebuildQueue() {
 
 function renderSongs() {
   const root = $("songs");
+  if (!root) return;
   if (!player.queue.length) {
     root.innerHTML = `<p class="empty">Is filter mein cassette nahi mili. Koi aur dhun try kariye.</p>`;
     return;
@@ -328,12 +329,14 @@ async function initPlayer() {
   const status = $("radio-status");
 
   player.songs = window.CATALOG || [];
-  status.hidden = false;
-  status.textContent =
-    "🎵 Audio source: YouTube playlist · Local static version.";
-  setTimeout(() => {
-    status.hidden = true;
-  }, 3500);
+  if (status) {
+    status.hidden = false;
+    status.textContent =
+      "🎵 Audio source: YouTube playlist · Local static version.";
+    setTimeout(() => {
+      status.hidden = true;
+    }, 3500);
+  }
 
   rebuildQueue();
   if (player.queue[0]) paintNowPlaying(player.queue[0]);
@@ -368,6 +371,7 @@ async function initPlayer() {
             index: 0,
             startSeconds: 0,
           });
+          setTimeout(() => player.yt?.setShuffle?.(true), 500);
         }
 
         player.timer = setInterval(tick, 400);
@@ -388,7 +392,7 @@ async function initPlayer() {
   $("sticky-prev")?.addEventListener("click", prevTrack);
   $("sticky-next")?.addEventListener("click", nextTrack);
   $("suno")?.addEventListener("click", () => {
-    $("music").scrollIntoView({ behavior: "smooth" });
+    $("music")?.scrollIntoView({ behavior: "smooth" });
     if (!player.playing) togglePlay();
   });
   $("vol")?.addEventListener("input", applyVolume);
@@ -431,7 +435,7 @@ async function initPlayer() {
       player.yt?.setLoop?.(player.repeat === "all");
     }
   });
-  $("song-search").addEventListener("input", (e) => {
+  $("song-search")?.addEventListener("input", (e) => {
     player.query = e.target.value;
     rebuildQueue();
   });
