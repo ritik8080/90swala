@@ -75,20 +75,20 @@ a {
 .scanlines {
   z-index: 41;
   opacity: 0.07;
-  background: repeating-linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.35) 0px,
-    rgba(0, 0, 0, 0.35) 1px,
-    transparent 1px,
-    transparent 4px
-  );
+  background: repeating-linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.35) 0px,
+      rgba(0, 0, 0, 0.35) 1px,
+      transparent 1px,
+      transparent 4px);
 }
 
 @keyframes grain {
+
   0%,
   100% {
     transform: translate(0, 0);
   }
+
   50% {
     transform: translate(-1.5%, 1%);
   }
@@ -144,12 +144,10 @@ a {
   min-height: 100vh;
   color: var(--white);
   background-color: #2a1a0e;
-  background-image: linear-gradient(
-      180deg,
+  background-image: linear-gradient(180deg,
       rgba(20, 10, 4, 0.55) 0%,
       rgba(20, 10, 4, 0.28) 42%,
-      rgba(20, 10, 4, 0.72) 100%
-    ),
+      rgba(20, 10, 4, 0.72) 100%),
     url('../img/hero-bg.svg');
   background-size: cover;
   background-position: center 40%;
@@ -459,7 +457,7 @@ a {
   background: #18120e;
   border-radius: 50%;
   border: 2px solid rgba(255, 255, 255, 0.4);
-  box-shadow: inset 0 0 4px rgba(0,0,0,0.8);
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.8);
 }
 
 .sticky-copy {
@@ -622,12 +620,10 @@ a {
 .page {
   background:
     radial-gradient(circle at 20% 0%, rgba(224, 180, 90, 0.12), transparent 28%),
-    repeating-linear-gradient(
-      0deg,
+    repeating-linear-gradient(0deg,
       transparent,
       transparent 27px,
-      rgba(92, 61, 34, 0.04) 28px
-    ),
+      rgba(92, 61, 34, 0.04) 28px),
     var(--cream);
 }
 
@@ -911,7 +907,7 @@ a {
   margin: 8px 0 22px;
 }
 
-.progress > div {
+.progress>div {
   height: 100%;
   background: var(--muted-green);
   width: 10%;
@@ -1076,6 +1072,7 @@ footer.site {
 }
 
 @media (max-width: 1024px) {
+
   .songs,
   .tv-grid,
   .objects {
@@ -1116,6 +1113,7 @@ footer.site {
 }
 
 @media (max-width: 600px) {
+
   .songs,
   .tv-grid,
   .objects {
@@ -1133,7 +1131,7 @@ footer.site {
     width: 48px;
     height: 48px;
   }
-  
+
   .vinyl-hole {
     width: 10px;
     height: 10px;

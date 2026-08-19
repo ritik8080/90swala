@@ -1,5 +1,17 @@
 window.CATALOG = [
   {
+    "title": "Saas Piye Bidi Sasur Piye Ganja",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "cwyjR1UEi-s",
+    "id": 1,
+    "plays": 0
+  },
+  {
     "title": "Jaisan Sochela",
     "artist": "Bhojpuri Wala",
     "album": "Playlist",
@@ -8,7 +20,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "ouwO-ePZoXI",
-    "id": 1,
+    "id": 2,
     "plays": 0
   },
   {
@@ -20,7 +32,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "hY4EsA6w2hY",
-    "id": 2,
+    "id": 3,
     "plays": 0
   },
   {
@@ -32,7 +44,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "9IlbbZO0fWw",
-    "id": 3,
+    "id": 4,
     "plays": 0
   },
   {
@@ -44,7 +56,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "XRTWUYSsbus",
-    "id": 4,
+    "id": 5,
     "plays": 0
   },
   {
@@ -56,7 +68,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "xIWLdX1WTC4",
-    "id": 5,
+    "id": 6,
     "plays": 0
   },
   {
@@ -68,7 +80,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "Q8V0FcbG0ik",
-    "id": 6,
+    "id": 7,
     "plays": 0
   },
   {
@@ -80,7 +92,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "CQj9m04q6XQ",
-    "id": 7,
+    "id": 8,
     "plays": 0
   },
   {
@@ -92,7 +104,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "BdMTcZwCokI",
-    "id": 8,
+    "id": 9,
     "plays": 0
   },
   {
@@ -104,7 +116,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "QBbE9PrQDPk",
-    "id": 9,
+    "id": 10,
     "plays": 0
   },
   {
@@ -116,7 +128,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "lPlVRVBPI2A",
-    "id": 10,
+    "id": 11,
     "plays": 0
   },
   {
@@ -128,55 +140,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "RviAuwNEspQ",
-    "id": 11,
-    "plays": 0
-  },
-  {
-    "title": "\u092a\u0935\u0928 \u0938\u093f\u0902\u0939 \u0915\u093e \u0938\u092c\u0938\u0947 \u091c\u094d\u092f\u093e\u0926\u093e \u092c\u091c\u0928\u0947 \u0935\u093e\u0932\u093e \u091b\u0920 \u0917\u0940\u0924 - \u091c\u094b\u095c\u0947 \u091c\u094b\u095c\u0947 \u092b\u0932\u0935\u093e T-Series #chhathpuja Jode Jode Falwa",
-    "artist": "Bhojpuri Wala",
-    "album": "Playlist",
-    "year": 2026,
-    "genres": [
-      "Bhojpuri"
-    ],
-    "youtube_id": "BKoD7bTLc2k",
     "id": 12,
-    "plays": 0
-  },
-  {
-    "title": "#Video | #Khesari lal Yadav | \u0913\u095d\u0928\u0940 \u0938\u0947 \u0930\u0939\u093f\u092f\u093e \u092c\u093e\u0939\u093e\u0930 \u0926S | #Shilpi Raj | Devi Geet 2025",
-    "artist": "Bhojpuri Wala",
-    "album": "Playlist",
-    "year": 2026,
-    "genres": [
-      "Bhojpuri"
-    ],
-    "youtube_id": "lQtz88NWGfU",
-    "id": 13,
-    "plays": 0
-  },
-  {
-    "title": "Neelkamal Singh & Shivani Singh \u0915\u0932\u0936\u093e \u0926\u093f\u092f\u0930\u093f\u092f\u093e \u0932\u0947\u0932\u0947 \u0905\u0908\u0939 Kalsha Diyariya Lele Aayi | Devi Geet",
-    "artist": "Bhojpuri Wala",
-    "album": "Playlist",
-    "year": 2026,
-    "genres": [
-      "Bhojpuri"
-    ],
-    "youtube_id": "ccv2Tlv0LhU",
-    "id": 14,
-    "plays": 0
-  },
-  {
-    "title": "\u091a\u092e\u0915\u0947\u0932\u093e \u091a\u0902\u0926\u094d\u0930 Badaniya- Singar Sajal Ba Mori Maiya Ke -Pawan Singh-Bhojpuri Mata Bhajan",
-    "artist": "Bhojpuri Wala",
-    "album": "Playlist",
-    "year": 2026,
-    "genres": [
-      "Bhojpuri"
-    ],
-    "youtube_id": "aTZmkUTGBqA",
-    "id": 15,
     "plays": 0
   },
   {
@@ -188,7 +152,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "8UG8hwSq-r8",
-    "id": 16,
+    "id": 13,
     "plays": 0
   },
   {
@@ -200,7 +164,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "iZd0bPm7q28",
-    "id": 17,
+    "id": 14,
     "plays": 0
   },
   {
@@ -212,7 +176,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "frL8iKdnoFo",
-    "id": 18,
+    "id": 15,
     "plays": 0
   },
   {
@@ -224,7 +188,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "aQe-5VwMXyI",
-    "id": 19,
+    "id": 16,
     "plays": 0
   },
   {
@@ -236,7 +200,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "OHXjMdlvTY8",
-    "id": 20,
+    "id": 17,
     "plays": 0
   },
   {
@@ -248,7 +212,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "v1OQL9_qCkM",
-    "id": 21,
+    "id": 18,
     "plays": 0
   },
   {
@@ -260,7 +224,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "uwJC4pOf02c",
-    "id": 22,
+    "id": 19,
     "plays": 0
   },
   {
@@ -272,7 +236,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "Q4-e_yZidsw",
-    "id": 23,
+    "id": 20,
     "plays": 0
   },
   {
@@ -284,7 +248,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "9nvBI-ER19I",
-    "id": 24,
+    "id": 21,
     "plays": 0
   },
   {
@@ -296,7 +260,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "h2C0tuMcSEE",
-    "id": 25,
+    "id": 22,
     "plays": 0
   },
   {
@@ -308,7 +272,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "xLwlUFY1uKo",
-    "id": 26,
+    "id": 23,
     "plays": 0
   },
   {
@@ -320,7 +284,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "w4TL5VbXKAA",
-    "id": 27,
+    "id": 24,
     "plays": 0
   },
   {
@@ -332,7 +296,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "WOVt49tksec",
-    "id": 28,
+    "id": 25,
     "plays": 0
   },
   {
@@ -344,7 +308,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "YqF1uUVhcb4",
-    "id": 29,
+    "id": 26,
     "plays": 0
   },
   {
@@ -356,7 +320,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "Ktl6VI1ZH9g",
-    "id": 30,
+    "id": 27,
     "plays": 0
   },
   {
@@ -368,7 +332,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "xFGki7rEQuM",
-    "id": 31,
+    "id": 28,
     "plays": 0
   },
   {
@@ -380,7 +344,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "VWdqGGiQHks",
-    "id": 32,
+    "id": 29,
     "plays": 0
   },
   {
@@ -392,7 +356,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "0rn1S0ihbaQ",
-    "id": 33,
+    "id": 30,
     "plays": 0
   },
   {
@@ -404,7 +368,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "Oftbw2T7a98",
-    "id": 34,
+    "id": 31,
     "plays": 0
   },
   {
@@ -416,7 +380,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "egHM7PhDrlE",
-    "id": 35,
+    "id": 32,
     "plays": 0
   },
   {
@@ -428,7 +392,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "r1_XBReys-c",
-    "id": 36,
+    "id": 33,
     "plays": 0
   },
   {
@@ -440,7 +404,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "8V80gUfyoSQ",
-    "id": 37,
+    "id": 34,
     "plays": 0
   },
   {
@@ -452,7 +416,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "FbAftS9snHI",
-    "id": 38,
+    "id": 35,
     "plays": 0
   },
   {
@@ -464,7 +428,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "My8TCTHu5M0",
-    "id": 39,
+    "id": 36,
     "plays": 0
   },
   {
@@ -476,7 +440,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "E80p7oCye30",
-    "id": 40,
+    "id": 37,
     "plays": 0
   },
   {
@@ -488,7 +452,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "Kd-ZY0RzrjM",
-    "id": 41,
+    "id": 38,
     "plays": 0
   },
   {
@@ -500,7 +464,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "JJ7tHcMar1k",
-    "id": 42,
+    "id": 39,
     "plays": 0
   },
   {
@@ -512,7 +476,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "0G7o18coi14",
-    "id": 43,
+    "id": 40,
     "plays": 0
   },
   {
@@ -524,7 +488,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "Zruua9grhXs",
-    "id": 44,
+    "id": 41,
     "plays": 0
   },
   {
@@ -536,7 +500,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "aEmpNRI9H1w",
-    "id": 45,
+    "id": 42,
     "plays": 0
   },
   {
@@ -548,7 +512,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "QXOTqGEJdQ8",
-    "id": 46,
+    "id": 43,
     "plays": 0
   },
   {
@@ -560,7 +524,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "JCCS3yc4j7s",
-    "id": 47,
+    "id": 44,
     "plays": 0
   },
   {
@@ -572,7 +536,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "-qptBU76ejU",
-    "id": 48,
+    "id": 45,
     "plays": 0
   },
   {
@@ -584,7 +548,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "XTR7a93MVsg",
-    "id": 49,
+    "id": 46,
     "plays": 0
   },
   {
@@ -596,7 +560,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "ZgpK-w57Fmg",
-    "id": 50,
+    "id": 47,
     "plays": 0
   },
   {
@@ -608,7 +572,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "y4NmuzGxwqo",
-    "id": 51,
+    "id": 48,
     "plays": 0
   },
   {
@@ -620,7 +584,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "7nqe9rFulas",
-    "id": 52,
+    "id": 49,
     "plays": 0
   },
   {
@@ -632,7 +596,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "RhAOvpv3lCw",
-    "id": 53,
+    "id": 50,
     "plays": 0
   },
   {
@@ -644,7 +608,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "az2U5EHUqH4",
-    "id": 54,
+    "id": 51,
     "plays": 0
   },
   {
@@ -656,7 +620,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "NeE3_rXL79s",
-    "id": 55,
+    "id": 52,
     "plays": 0
   },
   {
@@ -668,7 +632,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "AG5jfGBWt44",
-    "id": 56,
+    "id": 53,
     "plays": 0
   },
   {
@@ -680,7 +644,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "8lvEdqeNVN8",
-    "id": 57,
+    "id": 54,
     "plays": 0
   },
   {
@@ -692,7 +656,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "mHk_qBLkyuo",
-    "id": 58,
+    "id": 55,
     "plays": 0
   },
   {
@@ -704,7 +668,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "_h1BcNEWyPk",
-    "id": 59,
+    "id": 56,
     "plays": 0
   },
   {
@@ -716,7 +680,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "wj2xKCYVB4A",
-    "id": 60,
+    "id": 57,
     "plays": 0
   },
   {
@@ -728,7 +692,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "B84F8m6bfD8",
-    "id": 61,
+    "id": 58,
     "plays": 0
   },
   {
@@ -740,7 +704,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "Q80vF3Ad0GU",
-    "id": 62,
+    "id": 59,
     "plays": 0
   },
   {
@@ -752,7 +716,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "kihDbQj5aHY",
-    "id": 63,
+    "id": 60,
     "plays": 0
   },
   {
@@ -764,7 +728,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "u3j2SV9lvkA",
-    "id": 64,
+    "id": 61,
     "plays": 0
   },
   {
@@ -776,7 +740,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "EtynM6-FoNw",
-    "id": 65,
+    "id": 62,
     "plays": 0
   },
   {
@@ -788,7 +752,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "yQIelf9GaK8",
-    "id": 66,
+    "id": 63,
     "plays": 0
   },
   {
@@ -800,7 +764,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "Nneh1TxWxqg",
-    "id": 67,
+    "id": 64,
     "plays": 0
   },
   {
@@ -812,7 +776,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "MgynVdqEzDA",
-    "id": 68,
+    "id": 65,
     "plays": 0
   },
   {
@@ -824,7 +788,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "jOBMmwBQcmA",
-    "id": 69,
+    "id": 66,
     "plays": 0
   },
   {
@@ -836,7 +800,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "OSEO2KlDzuU",
-    "id": 70,
+    "id": 67,
     "plays": 0
   },
   {
@@ -848,7 +812,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "AkMl4sD2Yck",
-    "id": 71,
+    "id": 68,
     "plays": 0
   },
   {
@@ -860,7 +824,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "gyTcDLtuYT4",
-    "id": 72,
+    "id": 69,
     "plays": 0
   },
   {
@@ -872,7 +836,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "pIaTybkNFm0",
-    "id": 73,
+    "id": 70,
     "plays": 0
   },
   {
@@ -884,7 +848,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "BS6EY0HzKvI",
-    "id": 74,
+    "id": 71,
     "plays": 0
   },
   {
@@ -896,7 +860,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "fjFuGh9eWiE",
-    "id": 75,
+    "id": 72,
     "plays": 0
   },
   {
@@ -908,7 +872,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "v0hAoe6SCp8",
-    "id": 76,
+    "id": 73,
     "plays": 0
   },
   {
@@ -920,7 +884,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "iie1dxZtNNA",
-    "id": 77,
+    "id": 74,
     "plays": 0
   },
   {
@@ -932,7 +896,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "GifiPT38Xko",
-    "id": 78,
+    "id": 75,
     "plays": 0
   },
   {
@@ -944,7 +908,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "6-iPjwjB_vM",
-    "id": 79,
+    "id": 76,
     "plays": 0
   },
   {
@@ -956,7 +920,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "zlzR3AOhCmg",
-    "id": 80,
+    "id": 77,
     "plays": 0
   },
   {
@@ -968,7 +932,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "H0wcEX6BXEw",
-    "id": 81,
+    "id": 78,
     "plays": 0
   },
   {
@@ -980,7 +944,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "USPkL-yWg9k",
-    "id": 82,
+    "id": 79,
     "plays": 0
   },
   {
@@ -992,7 +956,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "-u0Do0Nuuz8",
-    "id": 83,
+    "id": 80,
     "plays": 0
   },
   {
@@ -1004,7 +968,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "XzMcF4E0lpY",
-    "id": 84,
+    "id": 81,
     "plays": 0
   },
   {
@@ -1016,7 +980,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "Hrkyc9Fv57M",
-    "id": 85,
+    "id": 82,
     "plays": 0
   },
   {
@@ -1028,7 +992,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "8huLfCD-nkQ",
-    "id": 86,
+    "id": 83,
     "plays": 0
   },
   {
@@ -1040,7 +1004,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "L-tDvFffdqs",
-    "id": 87,
+    "id": 84,
     "plays": 0
   },
   {
@@ -1052,7 +1016,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "3jZ_hToSWTo",
-    "id": 88,
+    "id": 85,
     "plays": 0
   },
   {
@@ -1064,7 +1028,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "fWoHu4gUtE4",
-    "id": 89,
+    "id": 86,
     "plays": 0
   },
   {
@@ -1076,7 +1040,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "fdimfhmu1aM",
-    "id": 90,
+    "id": 87,
     "plays": 0
   },
   {
@@ -1088,7 +1052,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "SaGs8iulvhE",
-    "id": 91,
+    "id": 88,
     "plays": 0
   },
   {
@@ -1100,7 +1064,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "vnrxicJCbKc",
-    "id": 92,
+    "id": 89,
     "plays": 0
   },
   {
@@ -1112,7 +1076,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "TiZ2CekGDhA",
-    "id": 93,
+    "id": 90,
     "plays": 0
   },
   {
@@ -1124,7 +1088,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "LYkIIc9q6BE",
-    "id": 94,
+    "id": 91,
     "plays": 0
   },
   {
@@ -1136,7 +1100,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "dOqrTGAouMU",
-    "id": 95,
+    "id": 92,
     "plays": 0
   },
   {
@@ -1148,7 +1112,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "UdTIdxFFrdU",
-    "id": 96,
+    "id": 93,
     "plays": 0
   },
   {
@@ -1160,7 +1124,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "m3uJ165NVm8",
-    "id": 97,
+    "id": 94,
     "plays": 0
   },
   {
@@ -1172,7 +1136,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "kGAA2bnQnAY",
-    "id": 98,
+    "id": 95,
     "plays": 0
   },
   {
@@ -1184,7 +1148,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "JYE4Y7VDeF8",
-    "id": 99,
+    "id": 96,
     "plays": 0
   },
   {
@@ -1196,7 +1160,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "8NS7EzmhEYs",
-    "id": 100,
+    "id": 97,
     "plays": 0
   },
   {
@@ -1208,7 +1172,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "ftUWLRU5rVM",
-    "id": 101,
+    "id": 98,
     "plays": 0
   },
   {
@@ -1220,7 +1184,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "0_dhbcHmrVA",
-    "id": 102,
+    "id": 99,
     "plays": 0
   },
   {
@@ -1232,7 +1196,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "uV_eiHsRhzw",
-    "id": 103,
+    "id": 100,
     "plays": 0
   },
   {
@@ -1244,7 +1208,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "7dNF9Dy79rA",
-    "id": 104,
+    "id": 101,
     "plays": 0
   },
   {
@@ -1256,7 +1220,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "iqJDCsGCMMg",
-    "id": 105,
+    "id": 102,
     "plays": 0
   },
   {
@@ -1268,7 +1232,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "f9mpHbHd-1s",
-    "id": 106,
+    "id": 103,
     "plays": 0
   },
   {
@@ -1280,7 +1244,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "zh5W8Qn7xN8",
-    "id": 107,
+    "id": 104,
     "plays": 0
   },
   {
@@ -1292,7 +1256,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "higBSBk4gt8",
-    "id": 108,
+    "id": 105,
     "plays": 0
   },
   {
@@ -1304,7 +1268,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "ePWk4A-Wh88",
-    "id": 109,
+    "id": 106,
     "plays": 0
   },
   {
@@ -1316,7 +1280,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "Nd-AoIbXjoQ",
-    "id": 110,
+    "id": 107,
     "plays": 0
   },
   {
@@ -1328,7 +1292,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "EmiRWDE-68o",
-    "id": 111,
+    "id": 108,
     "plays": 0
   },
   {
@@ -1340,19 +1304,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "NlWa-Vev7IU",
-    "id": 112,
-    "plays": 0
-  },
-  {
-    "title": "Saiya Sewa Kare",
-    "artist": "Bhojpuri Wala",
-    "album": "Playlist",
-    "year": 2026,
-    "genres": [
-      "Bhojpuri"
-    ],
-    "youtube_id": "pPjz-rOQ2w4",
-    "id": 113,
+    "id": 109,
     "plays": 0
   },
   {
@@ -1364,7 +1316,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "Tvd4aHVyUwo",
-    "id": 114,
+    "id": 110,
     "plays": 0
   },
   {
@@ -1376,7 +1328,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "rkY9MKvMx9c",
-    "id": 115,
+    "id": 111,
     "plays": 0
   },
   {
@@ -1388,7 +1340,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "ZjOhlpklILg",
-    "id": 116,
+    "id": 112,
     "plays": 0
   },
   {
@@ -1400,7 +1352,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "OqiJx_w7y4U",
-    "id": 117,
+    "id": 113,
     "plays": 0
   },
   {
@@ -1412,7 +1364,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "F7tRt7EuPJQ",
-    "id": 118,
+    "id": 114,
     "plays": 0
   },
   {
@@ -1424,7 +1376,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "sDJhOHvWuaE",
-    "id": 119,
+    "id": 115,
     "plays": 0
   },
   {
@@ -1436,7 +1388,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "IU_Vew0M2BM",
-    "id": 120,
+    "id": 116,
     "plays": 0
   },
   {
@@ -1448,7 +1400,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "xJwvsUbYqaE",
-    "id": 121,
+    "id": 117,
     "plays": 0
   },
   {
@@ -1460,7 +1412,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "ym0B2uBhQ50",
-    "id": 122,
+    "id": 118,
     "plays": 0
   },
   {
@@ -1472,7 +1424,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "CLw_wKnpkzE",
-    "id": 123,
+    "id": 119,
     "plays": 0
   },
   {
@@ -1484,7 +1436,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "fojX4FPUIqw",
-    "id": 124,
+    "id": 120,
     "plays": 0
   },
   {
@@ -1496,7 +1448,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "hLTvYG3G0X4",
-    "id": 125,
+    "id": 121,
     "plays": 0
   },
   {
@@ -1508,7 +1460,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "VcPi_xw41Us",
-    "id": 126,
+    "id": 122,
     "plays": 0
   },
   {
@@ -1520,7 +1472,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "MNESSZHyN7Y",
-    "id": 127,
+    "id": 123,
     "plays": 0
   },
   {
@@ -1532,7 +1484,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "hMd4LwcrGJ0",
-    "id": 128,
+    "id": 124,
     "plays": 0
   },
   {
@@ -1544,7 +1496,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "_VCOc5ullPQ",
-    "id": 129,
+    "id": 125,
     "plays": 0
   },
   {
@@ -1556,7 +1508,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "Egku44et1VY",
-    "id": 130,
+    "id": 126,
     "plays": 0
   },
   {
@@ -1568,7 +1520,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "7ftv3eWXasw",
-    "id": 131,
+    "id": 127,
     "plays": 0
   },
   {
@@ -1580,7 +1532,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "DCcLIdXKZHU",
-    "id": 132,
+    "id": 128,
     "plays": 0
   },
   {
@@ -1592,7 +1544,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "nFDjHuW5u-Q",
-    "id": 133,
+    "id": 129,
     "plays": 0
   },
   {
@@ -1604,7 +1556,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "tsBzHp1AHMM",
-    "id": 134,
+    "id": 130,
     "plays": 0
   },
   {
@@ -1616,7 +1568,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "x_bpOgBN_XY",
-    "id": 135,
+    "id": 131,
     "plays": 0
   },
   {
@@ -1628,7 +1580,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "aT6KWriXbyc",
-    "id": 136,
+    "id": 132,
     "plays": 0
   },
   {
@@ -1640,7 +1592,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "wwxSwptSxFs",
-    "id": 137,
+    "id": 133,
     "plays": 0
   },
   {
@@ -1652,7 +1604,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "0_Lsoa5ZRKg",
-    "id": 138,
+    "id": 134,
     "plays": 0
   },
   {
@@ -1664,7 +1616,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "7KdzIxAQ5CA",
-    "id": 139,
+    "id": 135,
     "plays": 0
   },
   {
@@ -1676,7 +1628,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "o7pSwH1p_pE",
-    "id": 140,
+    "id": 136,
     "plays": 0
   },
   {
@@ -1688,7 +1640,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "9AiO8pxRC8E",
-    "id": 141,
+    "id": 137,
     "plays": 0
   },
   {
@@ -1700,7 +1652,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "vPrMFfxRNHI",
-    "id": 142,
+    "id": 138,
     "plays": 0
   },
   {
@@ -1712,7 +1664,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "-1Hi1kDiU_g",
-    "id": 143,
+    "id": 139,
     "plays": 0
   },
   {
@@ -1724,7 +1676,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "W2RdkfOJH38",
-    "id": 144,
+    "id": 140,
     "plays": 0
   },
   {
@@ -1736,7 +1688,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "lqipFRQBCpM",
-    "id": 145,
+    "id": 141,
     "plays": 0
   },
   {
@@ -1748,7 +1700,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "C7s7k3PUFXw",
-    "id": 146,
+    "id": 142,
     "plays": 0
   },
   {
@@ -1760,7 +1712,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "A4pBWPiFkdQ",
-    "id": 147,
+    "id": 143,
     "plays": 0
   },
   {
@@ -1772,7 +1724,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "LXRKk9ZfGic",
-    "id": 148,
+    "id": 144,
     "plays": 0
   },
   {
@@ -1784,7 +1736,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "CWcPhlwSB5E",
-    "id": 149,
+    "id": 145,
     "plays": 0
   },
   {
@@ -1796,7 +1748,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "ivFYkPJ-5tA",
-    "id": 150,
+    "id": 146,
     "plays": 0
   },
   {
@@ -1808,7 +1760,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "tQSa7EuFZpY",
-    "id": 151,
+    "id": 147,
     "plays": 0
   },
   {
@@ -1820,7 +1772,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "mokqTHvK3Hs",
-    "id": 152,
+    "id": 148,
     "plays": 0
   },
   {
@@ -1832,7 +1784,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "yOYc6Lg11b4",
-    "id": 153,
+    "id": 149,
     "plays": 0
   },
   {
@@ -1844,7 +1796,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "0Y-DZmWHLko",
-    "id": 154,
+    "id": 150,
     "plays": 0
   },
   {
@@ -1856,7 +1808,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "XHzipDncOMY",
-    "id": 155,
+    "id": 151,
     "plays": 0
   },
   {
@@ -1868,7 +1820,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "__9p1exULWs",
-    "id": 156,
+    "id": 152,
     "plays": 0
   },
   {
@@ -1880,7 +1832,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "egRXcAKIp7s",
-    "id": 157,
+    "id": 153,
     "plays": 0
   },
   {
@@ -1892,7 +1844,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "SenoWc_-gzw",
-    "id": 158,
+    "id": 154,
     "plays": 0
   },
   {
@@ -1904,7 +1856,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "yGlA0uEKOE0",
-    "id": 159,
+    "id": 155,
     "plays": 0
   },
   {
@@ -1916,7 +1868,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "cHapPEL4Ptw",
-    "id": 160,
+    "id": 156,
     "plays": 0
   },
   {
@@ -1928,7 +1880,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "MoZJ6Xol1-4",
-    "id": 161,
+    "id": 157,
     "plays": 0
   },
   {
@@ -1940,7 +1892,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "TSFuGjzxDAQ",
-    "id": 162,
+    "id": 158,
     "plays": 0
   },
   {
@@ -1952,7 +1904,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "jVXybtkfTj4",
-    "id": 163,
+    "id": 159,
     "plays": 0
   },
   {
@@ -1964,7 +1916,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "4ThJ2DezoP4",
-    "id": 164,
+    "id": 160,
     "plays": 0
   },
   {
@@ -1976,7 +1928,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "RGkjc1zjZLw",
-    "id": 165,
+    "id": 161,
     "plays": 0
   },
   {
@@ -1988,7 +1940,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "NXYKu6CCP0Q",
-    "id": 166,
+    "id": 162,
     "plays": 0
   },
   {
@@ -2000,7 +1952,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "1dn8CgWQbZU",
-    "id": 167,
+    "id": 163,
     "plays": 0
   },
   {
@@ -2012,7 +1964,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "EbjFsmKhwC0",
-    "id": 168,
+    "id": 164,
     "plays": 0
   },
   {
@@ -2024,7 +1976,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "CsfqV-R_-A8",
-    "id": 169,
+    "id": 165,
     "plays": 0
   },
   {
@@ -2036,7 +1988,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "8g6QYeBCbko",
-    "id": 170,
+    "id": 166,
     "plays": 0
   },
   {
@@ -2048,7 +2000,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "mWLAZo7ATW0",
-    "id": 171,
+    "id": 167,
     "plays": 0
   },
   {
@@ -2060,7 +2012,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "bt5yYr_A9B0",
-    "id": 172,
+    "id": 168,
     "plays": 0
   },
   {
@@ -2072,7 +2024,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "HLJ07P2CnEA",
-    "id": 173,
+    "id": 169,
     "plays": 0
   },
   {
@@ -2084,7 +2036,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "ReRzW2quTGs",
-    "id": 174,
+    "id": 170,
     "plays": 0
   },
   {
@@ -2096,7 +2048,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "KY6vzl2Sk0c",
-    "id": 175,
+    "id": 171,
     "plays": 0
   },
   {
@@ -2108,7 +2060,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "sNwth-kPvTk",
-    "id": 176,
+    "id": 172,
     "plays": 0
   },
   {
@@ -2120,7 +2072,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "TFgCjPiIsYA",
-    "id": 177,
+    "id": 173,
     "plays": 0
   },
   {
@@ -2132,7 +2084,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "oVIJdKO8HPo",
-    "id": 178,
+    "id": 174,
     "plays": 0
   },
   {
@@ -2144,7 +2096,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "9iNWi5-gleI",
-    "id": 179,
+    "id": 175,
     "plays": 0
   },
   {
@@ -2156,7 +2108,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "qVQf5Twzs8g",
-    "id": 180,
+    "id": 176,
     "plays": 0
   },
   {
@@ -2168,7 +2120,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "b7qqoTb6148",
-    "id": 181,
+    "id": 177,
     "plays": 0
   },
   {
@@ -2180,7 +2132,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "2SZRDj8ppzU",
-    "id": 182,
+    "id": 178,
     "plays": 0
   },
   {
@@ -2192,7 +2144,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "85iH4UxTOIU",
-    "id": 183,
+    "id": 179,
     "plays": 0
   },
   {
@@ -2204,7 +2156,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "f6xLA7NfQgo",
-    "id": 184,
+    "id": 180,
     "plays": 0
   },
   {
@@ -2216,7 +2168,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "pJlsQthwL8M",
-    "id": 185,
+    "id": 181,
     "plays": 0
   },
   {
@@ -2228,7 +2180,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "yPmIrZtaUTU",
-    "id": 186,
+    "id": 182,
     "plays": 0
   },
   {
@@ -2240,7 +2192,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "77U-Pw267Qs",
-    "id": 187,
+    "id": 183,
     "plays": 0
   },
   {
@@ -2252,7 +2204,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "d_W6VrXkJz8",
-    "id": 188,
+    "id": 184,
     "plays": 0
   },
   {
@@ -2264,7 +2216,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "h9XfR8wt4QI",
-    "id": 189,
+    "id": 185,
     "plays": 0
   },
   {
@@ -2276,7 +2228,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "IfA6AiRhFbA",
-    "id": 190,
+    "id": 186,
     "plays": 0
   },
   {
@@ -2288,7 +2240,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "jcjVvaR_f6E",
-    "id": 191,
+    "id": 187,
     "plays": 0
   },
   {
@@ -2300,7 +2252,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "jS-5POt33z4",
-    "id": 192,
+    "id": 188,
     "plays": 0
   },
   {
@@ -2312,7 +2264,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "kkVDpbI00Ck",
-    "id": 193,
+    "id": 189,
     "plays": 0
   },
   {
@@ -2324,7 +2276,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "ANFCI1ZzE3Q",
-    "id": 194,
+    "id": 190,
     "plays": 0
   },
   {
@@ -2336,7 +2288,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "G0yW1X-Fcm8",
-    "id": 195,
+    "id": 191,
     "plays": 0
   },
   {
@@ -2348,7 +2300,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "Vm_o1SIwt_E",
-    "id": 196,
+    "id": 192,
     "plays": 0
   },
   {
@@ -2360,7 +2312,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "g2GCR70nQgQ",
-    "id": 197,
+    "id": 193,
     "plays": 0
   },
   {
@@ -2372,7 +2324,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "wFkuKyXBCtU",
-    "id": 198,
+    "id": 194,
     "plays": 0
   },
   {
@@ -2384,7 +2336,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "ZCq8z9xhxA0",
-    "id": 199,
+    "id": 195,
     "plays": 0
   },
   {
@@ -2396,7 +2348,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "wo7w5zSg0sQ",
-    "id": 200,
+    "id": 196,
     "plays": 0
   },
   {
@@ -2408,7 +2360,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "Wnh2IVMUyKs",
-    "id": 201,
+    "id": 197,
     "plays": 0
   },
   {
@@ -2420,7 +2372,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "KFtAldorf-U",
-    "id": 202,
+    "id": 198,
     "plays": 0
   },
   {
@@ -2432,7 +2384,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "0UbXzm18yT4",
-    "id": 203,
+    "id": 199,
     "plays": 0
   },
   {
@@ -2444,7 +2396,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "Kq1av-gBCn4",
-    "id": 204,
+    "id": 200,
     "plays": 0
   },
   {
@@ -2456,7 +2408,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "ltPLU-4lsb0",
-    "id": 205,
+    "id": 201,
     "plays": 0
   },
   {
@@ -2468,7 +2420,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "JuP5hXoAzcM",
-    "id": 206,
+    "id": 202,
     "plays": 0
   },
   {
@@ -2480,7 +2432,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "_1YoMWXUuE4",
-    "id": 207,
+    "id": 203,
     "plays": 0
   },
   {
@@ -2492,7 +2444,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "-tjn8HngNio",
-    "id": 208,
+    "id": 204,
     "plays": 0
   },
   {
@@ -2504,7 +2456,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "-Wt5QAfs4Wg",
-    "id": 209,
+    "id": 205,
     "plays": 0
   },
   {
@@ -2516,7 +2468,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "z8O1b4GEvL8",
-    "id": 210,
+    "id": 206,
     "plays": 0
   },
   {
@@ -2528,7 +2480,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "L-MIP5kgg0o",
-    "id": 211,
+    "id": 207,
     "plays": 0
   },
   {
@@ -2540,7 +2492,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "oybZNRN0eM4",
-    "id": 212,
+    "id": 208,
     "plays": 0
   },
   {
@@ -2552,7 +2504,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "L-fN-8-WSrc",
-    "id": 213,
+    "id": 209,
     "plays": 0
   },
   {
@@ -2564,7 +2516,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "23PoY6afSzc",
-    "id": 214,
+    "id": 210,
     "plays": 0
   },
   {
@@ -2576,7 +2528,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "r4Ca_3l9o4Q",
-    "id": 215,
+    "id": 211,
     "plays": 0
   },
   {
@@ -2588,7 +2540,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "GkKVpkLbT6Y",
-    "id": 216,
+    "id": 212,
     "plays": 0
   },
   {
@@ -2600,7 +2552,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "qgD7y9ZyZxk",
-    "id": 217,
+    "id": 213,
     "plays": 0
   },
   {
@@ -2612,7 +2564,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "ArIdc5b_Bzw",
-    "id": 218,
+    "id": 214,
     "plays": 0
   },
   {
@@ -2624,7 +2576,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "P0pmgwNVQcY",
-    "id": 219,
+    "id": 215,
     "plays": 0
   },
   {
@@ -2636,7 +2588,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "IGbYdyXVyE0",
-    "id": 220,
+    "id": 216,
     "plays": 0
   },
   {
@@ -2648,7 +2600,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "qKaLzC1ttWw",
-    "id": 221,
+    "id": 217,
     "plays": 0
   },
   {
@@ -2660,7 +2612,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "MAmODCOlyFc",
-    "id": 222,
+    "id": 218,
     "plays": 0
   },
   {
@@ -2672,7 +2624,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "MsKEemwvn2c",
-    "id": 223,
+    "id": 219,
     "plays": 0
   },
   {
@@ -2684,7 +2636,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "ZBhQF7y0TbY",
-    "id": 224,
+    "id": 220,
     "plays": 0
   },
   {
@@ -2696,7 +2648,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "RjsxoL3ykCw",
-    "id": 225,
+    "id": 221,
     "plays": 0
   },
   {
@@ -2708,7 +2660,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "Rs6tD0nlbp8",
-    "id": 226,
+    "id": 222,
     "plays": 0
   },
   {
@@ -2720,7 +2672,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "0cl-CGPH_IY",
-    "id": 227,
+    "id": 223,
     "plays": 0
   },
   {
@@ -2732,7 +2684,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "K1JHFQZjuCs",
-    "id": 228,
+    "id": 224,
     "plays": 0
   },
   {
@@ -2744,7 +2696,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "iyHL4mKRBj8",
-    "id": 229,
+    "id": 225,
     "plays": 0
   },
   {
@@ -2756,7 +2708,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "-9zA6kZqVeA",
-    "id": 230,
+    "id": 226,
     "plays": 0
   },
   {
@@ -2768,7 +2720,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "eV8fhFkPyPA",
-    "id": 231,
+    "id": 227,
     "plays": 0
   },
   {
@@ -2780,7 +2732,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "jzsaq2QxW_g",
-    "id": 232,
+    "id": 228,
     "plays": 0
   },
   {
@@ -2792,7 +2744,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "f9ObPl578HQ",
-    "id": 233,
+    "id": 229,
     "plays": 0
   },
   {
@@ -2804,7 +2756,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "485ZSl_p51w",
-    "id": 234,
+    "id": 230,
     "plays": 0
   },
   {
@@ -2816,7 +2768,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "17FjTofzHQc",
-    "id": 235,
+    "id": 231,
     "plays": 0
   },
   {
@@ -2828,7 +2780,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "TL8twJf4EIk",
-    "id": 236,
+    "id": 232,
     "plays": 0
   },
   {
@@ -2840,7 +2792,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "AeG7bUkp9zQ",
-    "id": 237,
+    "id": 233,
     "plays": 0
   },
   {
@@ -2852,7 +2804,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "p8J9hOf5HJ4",
-    "id": 238,
+    "id": 234,
     "plays": 0
   },
   {
@@ -2864,7 +2816,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "1p9As8KgVjQ",
-    "id": 239,
+    "id": 235,
     "plays": 0
   },
   {
@@ -2876,7 +2828,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "Z_C0XhqyXGw",
-    "id": 240,
+    "id": 236,
     "plays": 0
   },
   {
@@ -2888,7 +2840,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "66LBuFI2oNE",
-    "id": 241,
+    "id": 237,
     "plays": 0
   },
   {
@@ -2900,7 +2852,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "CYjqYxUydg8",
-    "id": 242,
+    "id": 238,
     "plays": 0
   },
   {
@@ -2912,7 +2864,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "YLSREQ_oAuw",
-    "id": 243,
+    "id": 239,
     "plays": 0
   },
   {
@@ -2924,7 +2876,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "WC3iAC_wjr8",
-    "id": 244,
+    "id": 240,
     "plays": 0
   },
   {
@@ -2936,7 +2888,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "lb4Lt2OI6Pg",
-    "id": 245,
+    "id": 241,
     "plays": 0
   },
   {
@@ -2948,7 +2900,7 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "_F9AhkRAme8",
-    "id": 246,
+    "id": 242,
     "plays": 0
   },
   {
@@ -2960,11 +2912,11 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "EWt_WiFPvH4",
-    "id": 247,
+    "id": 243,
     "plays": 0
   },
   {
-    "title": "PAWAN SINGH // Lahanga Se Mahanga // BHOJPURI  #PAWANSINGH  #bhojpuri ",
+    "title": "PAWAN SINGH // Lahanga Se Mahanga // BHOJPURI  #PAWANSINGH  #bhojpuri",
     "artist": "Bhojpuri Wala",
     "album": "Playlist",
     "year": 2026,
@@ -2972,7 +2924,643 @@ window.CATALOG = [
       "Bhojpuri"
     ],
     "youtube_id": "nz0RZ5wS1HQ",
+    "id": 244,
+    "plays": 0
+  },
+  {
+    "title": "Tu Dil Ke Dhadkan",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "Tv13dwEnFpo",
+    "id": 245,
+    "plays": 0
+  },
+  {
+    "title": "Dhori Bhar Jata Pasina Se",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "ckbzP05PJ2I",
+    "id": 246,
+    "plays": 0
+  },
+  {
+    "title": "Dharti Pe Utaral Baa Chand",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "6AoBq44meBc",
+    "id": 247,
+    "plays": 0
+  },
+  {
+    "title": "Asman Se Utar Ke Ego Chand",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "2gwxeVDjW30",
     "id": 248,
+    "plays": 0
+  },
+  {
+    "title": "Bina Mausam Ke Badra Baras",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "npU4EoOC3eU",
+    "id": 249,
+    "plays": 0
+  },
+  {
+    "title": "Bas Yaad Ke Sahare",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "GHb0wP-Yz88",
+    "id": 250,
+    "plays": 0
+  },
+  {
+    "title": "Chocolet Lagelu",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "L8IOf8dKjDE",
+    "id": 251,
+    "plays": 0
+  },
+  {
+    "title": "Barbadi Hoi",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "-3fvkx2Tct0",
+    "id": 252,
+    "plays": 0
+  },
+  {
+    "title": "Kamar Load Sahi Na",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "alcyTu3rPmc",
+    "id": 253,
+    "plays": 0
+  },
+  {
+    "title": "Ye Raja Jai Na Bahriya",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "MFUxzXK5MyI",
+    "id": 254,
+    "plays": 0
+  },
+  {
+    "title": "Daal De Kewadi Mein Killi",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "Fj0iseJXwAI",
+    "id": 255,
+    "plays": 0
+  },
+  {
+    "title": "Katore Katore",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "uOXmugBUWQI",
+    "id": 256,
+    "plays": 0
+  },
+  {
+    "title": "Lot Kay Ghot",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "H2Uee6I-bnI",
+    "id": 257,
+    "plays": 0
+  },
+  {
+    "title": "Nayana Lage Neh Ke Sagar Bindiya Lage Chan",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "BrmW1aYk-YU",
+    "id": 258,
+    "plays": 0
+  },
+  {
+    "title": "Jab Se Naina Ladal",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "XmMSlEElB2s",
+    "id": 259,
+    "plays": 0
+  },
+  {
+    "title": "Mil Gayilu Tu Zindagi Me",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "Hrx4d7ZzZYY",
+    "id": 260,
+    "plays": 0
+  },
+  {
+    "title": "Saiyan Ke Sath",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "tEtLoMXRuTo",
+    "id": 261,
+    "plays": 0
+  },
+  {
+    "title": "Bhatar Na Mili",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "eyf3cOLqlH4",
+    "id": 262,
+    "plays": 0
+  },
+  {
+    "title": "Kamseen Bani Ho",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "8KiVblUh-yg",
+    "id": 263,
+    "plays": 0
+  },
+  {
+    "title": "Jaatara Pardesh Balamua",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "hfP8Pkjfrh4",
+    "id": 264,
+    "plays": 0
+  },
+  {
+    "title": "Chhati Me Daba Ke Chale",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "tbtybJd5_-8",
+    "id": 265,
+    "plays": 0
+  },
+  {
+    "title": "Godiya Mein Humke Le La Piya",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "f_8Lixf01_w",
+    "id": 266,
+    "plays": 0
+  },
+  {
+    "title": "Umar Baye 18 Saal",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "4JNhepyZ6Xo",
+    "id": 267,
+    "plays": 0
+  },
+  {
+    "title": "Kuchh Din Kare Da Gujar",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "680lRuVxEw8",
+    "id": 268,
+    "plays": 0
+  },
+  {
+    "title": "Goriyan Chand Ke Anjoriya6.02",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "_CoXZUqp5Jc",
+    "id": 269,
+    "plays": 0
+  },
+  {
+    "title": "Aaho Raja",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "82drVqKrp9M",
+    "id": 270,
+    "plays": 0
+  },
+  {
+    "title": "Chulha Alage Jari",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "dlPb3ibuPhE",
+    "id": 271,
+    "plays": 0
+  },
+  {
+    "title": "Apna Raja Ji Ke",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "c1QCushJC00",
+    "id": 272,
+    "plays": 0
+  },
+  {
+    "title": "Othalali Ke Swad",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "jWPnNx73jW4",
+    "id": 273,
+    "plays": 0
+  },
+  {
+    "title": "Haranawe Dhai Dhai Dabata",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "PVHzbw2Q0EA",
+    "id": 274,
+    "plays": 0
+  },
+  {
+    "title": "Karihaiyan Pa",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "kv0NOOuMuDQ",
+    "id": 275,
+    "plays": 0
+  },
+  {
+    "title": "Tohar Kamar Ha Ki Matka",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "wjad5KpwUdI",
+    "id": 276,
+    "plays": 0
+  },
+  {
+    "title": "Umriya Ke Farak",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "b0vdvP4pLAI",
+    "id": 277,
+    "plays": 0
+  },
+  {
+    "title": "Rotiya Belahi Ke Pari",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "AOJ-x5tMwVk",
+    "id": 278,
+    "plays": 0
+  },
+  {
+    "title": "Saiya Sewa Kare",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "pPjz-rOQ2w4",
+    "id": 279,
+    "plays": 0
+  },
+  {
+    "title": "Mehari Ke Pyaar (Ft. Neelam Giri)",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "LftHVUTq1dE",
+    "id": 280,
+    "plays": 0
+  },
+  {
+    "title": "Hawa Saay Saay",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "EjuhTEIj6eI",
+    "id": 281,
+    "plays": 0
+  },
+  {
+    "title": "Patar Patar Piywa",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "Z7cOxBsHTi4",
+    "id": 282,
+    "plays": 0
+  },
+  {
+    "title": "Ghaghari",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "ZbHaQjUbyo8",
+    "id": 283,
+    "plays": 0
+  },
+  {
+    "title": "Darad Ba Halke Halke",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "zaxVOOhgR6Y",
+    "id": 284,
+    "plays": 0
+  },
+  {
+    "title": "Kamar Damage",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "rofnZe2lcF0",
+    "id": 285,
+    "plays": 0
+  },
+  {
+    "title": "Aam Ke Swad",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "A0h7wFyiCG0",
+    "id": 286,
+    "plays": 0
+  },
+  {
+    "title": "Raja Ji",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "9W9d0LAI380",
+    "id": 287,
+    "plays": 0
+  },
+  {
+    "title": "Nathuniya 2",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "1N0fkieitsk",
+    "id": 288,
+    "plays": 0
+  },
+  {
+    "title": "Palangiya Hilavewala Chahi",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "rW8aHwTX77I",
+    "id": 289,
+    "plays": 0
+  },
+  {
+    "title": "Kalkatawa Ke Laiki",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "kmeOSrjSrXU",
+    "id": 290,
+    "plays": 0
+  },
+  {
+    "title": "Baraf",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "UeCotUUdmuo",
+    "id": 291,
+    "plays": 0
+  },
+  {
+    "title": "Odhaniya Ae Gori",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "r8xjolKSPv8",
+    "id": 292,
+    "plays": 0
+  },
+  {
+    "title": "Rangdari Bihari Ke",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "g2sXOOMmb30",
+    "id": 293,
+    "plays": 0
+  },
+  {
+    "title": "Bhatar Aiehe Holi Ke Baad",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "SuTyZgDxWL0",
+    "id": 294,
+    "plays": 0
+  },
+  {
+    "title": "Pagle Bana Delu",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "r80Bo59KNag",
+    "id": 295,
+    "plays": 0
+  },
+  {
+    "title": "Garmi Garam Biya",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "shwdEeyfdqM",
+    "id": 296,
+    "plays": 0
+  },
+  {
+    "title": "Aara Ke Babuaan",
+    "artist": "Bhojpuri Wala",
+    "album": "Playlist",
+    "year": 2026,
+    "genres": [
+      "Bhojpuri"
+    ],
+    "youtube_id": "Eh1MANdedEs",
+    "id": 297,
     "plays": 0
   }
 ];
