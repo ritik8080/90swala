@@ -102,7 +102,11 @@ function tick() {
   const seek = $("seek");
   if (seek) {
     seek.max = String(dur);
-    if (!seek.dataset.drag) seek.value = String(t);
+    if (!seek.dataset.drag) {
+      seek.value = String(t);
+      const percentage = dur > 0 ? (t / dur) * 100 : 0;
+      seek.style.background = `linear-gradient(to right, var(--warm-yellow) 0%, var(--warm-yellow) ${percentage}%, rgba(255, 255, 255, 0.25) ${percentage}%, rgba(255, 255, 255, 0.25) 100%)`;
+    }
   }
   const timeNow = $("time-now");
   if (timeNow) timeNow.textContent = formatTime(t);
@@ -413,6 +417,15 @@ async function initPlayer() {
     if (seek) {
       player.yt?.seekTo(Number(seek.value), true);
       delete seek.dataset.drag;
+    }
+  });
+  $("seek")?.addEventListener("input", () => {
+    const seek = $("seek");
+    if (seek) {
+      const val = Number(seek.value);
+      const max = Number(seek.max) || 100;
+      const percentage = max > 0 ? (val / max) * 100 : 0;
+      seek.style.background = `linear-gradient(to right, var(--warm-yellow) 0%, var(--warm-yellow) ${percentage}%, rgba(255, 255, 255, 0.25) ${percentage}%, rgba(255, 255, 255, 0.25) 100%)`;
     }
   });
 

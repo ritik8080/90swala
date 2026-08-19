@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bhojpuri Wala — Woh Bhi Kya Din The</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,500&family=Newsreader:ital,opsz,wght@0,6..72,500;1,6..72,400&family=Noto+Sans+Devanagari:wght@700&family=Source+Sans+3:wght@400;600;700&display=swap"
+    rel="stylesheet" />
+  <script>
+    if (window.location.pathname.match(/\/bhojpuriwala$/)) {
+      window.location.replace(window.location.pathname + '/' + window.location.search + window.location.hash);
+    }
+  </script>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <div class="door" id="door">
+    <div>
+      <p>Aaiye…</p>
+      <h1>You just opened a door<br />into your childhood.</h1>
+      <button type="button" id="enter">Enter Bhojpuri Wala</button>
+    </div>
+  </div>
+
+  <header class="hero" id="home">
+    <div class="topbar">
+      <div class="brand">Bhojpuri Wala</div>
+      <nav class="nav">
+        <a href="../index.html">← Back to 90s Wala</a>
+        <a href="#home">Home</a>
+      </nav>
+    </div>
+
+    <div class="online">
+      <span class="dot"></span>
+      <span><span id="online-count">1,284</span> Wala online</span>
+    </div>
+
+    <div class="hero-copy">
+      <p class="en">Bhojpuri</p>
+      <p class="hi">वाला</p>
+      <p class="tagline">Bhojpuri ke geet, purani yaadein...</p>
+      <button class="suno" type="button" id="suno">▶ Suno Bhojpuri</button>
+    </div>
+
+    <div style="position: absolute; width: 0; height: 0; overflow: hidden;" aria-hidden="true">
+      <div id="yt-player"></div>
+    </div>
+  </header>
+
+  <main class="page">
+
+
+
+
+    <section class="wrap" id="things">
+      <p class="kicker">📼 Tab ki duniya</p>
+      <h2 class="section-title">Things We Used</h2>
+      <p class="hand">Hover kijiye. Kuch cheezein ab bhi awaaz karti hain.</p>
+      <div class="objects">
+        <article class="object" tabindex="0">
+          <span class="emoji">📼</span>
+          <h3>Cassette</h3>
+          <p class="whisper">Gaana rewind karne ke liye pencil yaad hai?</p>
+        </article>
+        <article class="object" tabindex="0">
+          <span class="emoji">☎️</span>
+          <h3>Landline</h3>
+          <p class="whisper">Do rings, aur poori gali jaanti thi ki phone kiska hai.</p>
+        </article>
+        <article class="object" tabindex="0">
+          <span class="emoji">📻</span>
+          <h3>Radio</h3>
+          <p class="whisper">Vividh Bharati raat ko — presenter ki awaaz ghar ka hissa thi.</p>
+        </article>
+        <article class="object" tabindex="0">
+          <span class="emoji">📺</span>
+          <h3>CRT TV</h3>
+          <p class="whisper">Antenna ghumao. Abhi picture aa jayegi. Bas ek inch aur.</p>
+        </article>
+        <article class="object" tabindex="0">
+          <span class="emoji">🎮</span>
+          <h3>Video Game</h3>
+          <p class="whisper">Video parlour, Contra, aur 5 rupaye ka extra life.</p>
+        </article>
+        <article class="object" tabindex="0">
+          <span class="emoji">✏️</span>
+          <h3>Fountain Pen</h3>
+          <p class="whisper">Pocket par neela daag — padhai ka medal.</p>
+        </article>
+      </div>
+      <img class="still" id="still-photo" alt="1990s Indian household objects on a teak table" />
+    </section>
+
+
+
+
+
+
+  </main>
+
+  <footer class="site">Bhojpuri Wala · Woh bhi kya din the · Made like a photograph, not a neon poster.</footer>
+
+
+
+  <div class="sticky-player" id="sticky-player">
+    <div class="sticky-thumb-wrap">
+      <img id="thumb" alt="" />
+      <div class="vinyl-hole"></div>
+    </div>
+    <div class="sticky-copy">
+      <strong id="sticky-title">Bhojpuri Radio</strong>
+      <span id="sticky-sub">Cassette lagao</span>
+      <div class="sticky-seek-row">
+        <input type="range" id="seek" class="seek-slider" min="0" value="0" aria-label="Seek audio" />
+        <div class="sticky-time">
+          <span id="sticky-time-now">0:00</span> / <span id="sticky-time-end">0:00</span>
+        </div>
+      </div>
+    </div>
+    <div class="btns">
+      <button class="icon-btn" id="shuffle" type="button" aria-label="Shuffle" title="Shuffle" hidden></button>
+      <button class="icon-btn" id="sticky-prev" type="button" aria-label="Previous">⏮</button>
+      <button class="icon-btn is-main" id="sticky-play" type="button" aria-label="Play">▶</button>
+      <button class="icon-btn" id="sticky-next" type="button" aria-label="Next">⏭</button>
+    </div>
+  </div>
+
+  <script src="js/catalog.js?v=3"></script>
+  <script src="js/player.js?v=3"></script>
+  <script src="js/app.js?v=3"></script>
+</body>
+
+</html>
